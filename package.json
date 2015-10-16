@@ -1,0 +1,30 @@
+{
+  "name": "react-global-event-method",
+  "version": "0.0.1",
+  "description": "global events using method decorators",
+  "main": "dist/react-global-event-decorator.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brigand/react-global-event-method.git"
+  },
+  "keywords": [],
+  "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brigand/react-global-event-method/issues"
+  },
+  "homepage": "https://github.com/brigand/react-global-event-method",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  },
+  "dependencies": {
+    "react-mixin": "^3.0.0"
+  }
+}
