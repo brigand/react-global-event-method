@@ -1,6 +1,6 @@
 {
   "name": "react-global-event-method",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "global events using method decorators",
   "main": "./lib/react-global-event-decorator",
   "scripts": {
