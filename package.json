@@ -2,7 +2,7 @@
   "name": "react-global-event-method",
   "version": "0.0.2",
   "description": "global events using method decorators",
-  "main": "dist/react-global-event-decorator.js",
+  "main": "./lib/react-global-event-decorator",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
     "build": "babel src --out-dir lib"
